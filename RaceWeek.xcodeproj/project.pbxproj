@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C4E09795B9A1EA7DECD6AF2 /* Sources/Core/Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BEC17F0F384BD20938EDEE /* Sources/Core/Models.swift */; };
+		22FE77B0395ED580F0DD7F07 /* RaceWeekWidgets.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F231F6FE549E641636571AA6 /* RaceWeekWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2D862B2AC080CD07AE09E000 /* Sources/Core/Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = D322AB8254BBFA2B0DFDB904 /* Sources/Core/Names.swift */; };
+		32F3E38010576CDB40EBFFD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00A488BA7B02A655E18E6473 /* InfoPlist.strings */; };
+		47641C07EA8EB0316D2941C2 /* Sources/App/CircuitDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5575B7734FF01DA07F682E80 /* Sources/App/CircuitDetail.swift */; };
+		512C15CEB3572BF228E621A9 /* Sources/Widget/RaceWeekWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A5E3395B182E85DFD15E5 /* Sources/Widget/RaceWeekWidgets.swift */; };
+		51CB0B5900C405EE08267F0B /* Sources/UI/Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C7976065A82B277D3D5D6E /* Sources/UI/Style.swift */; };
+		732231576B0B069E2941441F /* Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3685E330EC5277A9DD5661C6 /* Resources/Assets.xcassets */; };
+		75CF58DC2E38A77680039C0A /* Sources/Core/Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5342228B8D307612E0155DC /* Sources/Core/Storage.swift */; };
+		80C04F9B4B556F65BA3A5B28 /* Sources/Core/Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5342228B8D307612E0155DC /* Sources/Core/Storage.swift */; };
+		85CF774DD361200161AC7789 /* Sources/Core/Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BEC17F0F384BD20938EDEE /* Sources/Core/Models.swift */; };
+		A0F7FBB2086FD46FFAC48EEC /* Sources/App/RaceWeekApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BCB6A84020C042F5BAF6DA /* Sources/App/RaceWeekApp.swift */; };
+		A22BB0C4C44323DA5DE10082 /* Sources/Core/API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F0947701BFCBBAC2FEB390 /* Sources/Core/API.swift */; };
+		B157FACAD06B32F66937E038 /* Sources/Core/CircuitProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B21B15BE2312B11886A39E9 /* Sources/Core/CircuitProfile.swift */; };
+		B3CDA59F0B04029CE7694B59 /* Sources/Core/CircuitProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B21B15BE2312B11886A39E9 /* Sources/Core/CircuitProfile.swift */; };
+		B45CC7F9BBE54CA43DA92F67 /* Resources/Circuits in Resources */ = {isa = PBXBuildFile; fileRef = EE5482BDE8C2812D3F39F5B0 /* Resources/Circuits */; };
+		B8A553E6537CE7F94A18DEE4 /* Sources/Core/Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = D322AB8254BBFA2B0DFDB904 /* Sources/Core/Names.swift */; };
+		BB149B10C272F5A3A1912033 /* Sources/App/Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF73311E5BAFE2E34CB7303 /* Sources/App/Views.swift */; };
+		C7D73878FF86BA29D4B68118 /* Sources/Core/API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F0947701BFCBBAC2FEB390 /* Sources/Core/API.swift */; };
+		D74A3DEDC7F63AFB262D9967 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00A488BA7B02A655E18E6473 /* InfoPlist.strings */; };
+		F0EEA057776476F88F6C3188 /* Sources/UI/Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C7976065A82B277D3D5D6E /* Sources/UI/Style.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D799BAE6088A90139B415FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2E26630DE3268E6B4337F06;
+			remoteInfo = RaceWeekWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CFFF27C96089B93150F3553B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				22FE77B0395ED580F0DD7F07 /* RaceWeekWidgets.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D7F8A7D61B2E67CEAA9E191 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Resources/zh-Hans.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
+		3685E330EC5277A9DD5661C6 /* Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		5575B7734FF01DA07F682E80 /* Sources/App/CircuitDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/App/CircuitDetail.swift; sourceTree = SOURCE_ROOT; };
+		5B21B15BE2312B11886A39E9 /* Sources/Core/CircuitProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Core/CircuitProfile.swift; sourceTree = SOURCE_ROOT; };
+		5BDC60664A57FA32A799A396 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		70BEC17F0F384BD20938EDEE /* Sources/Core/Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Core/Models.swift; sourceTree = SOURCE_ROOT; };
+		77BCB6A84020C042F5BAF6DA /* Sources/App/RaceWeekApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/App/RaceWeekApp.swift; sourceTree = SOURCE_ROOT; };
+		86C7976065A82B277D3D5D6E /* Sources/UI/Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/UI/Style.swift; sourceTree = SOURCE_ROOT; };
+		8BCD5BC4CDFDF0918087C782 /* RaceWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = RaceWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5342228B8D307612E0155DC /* Sources/Core/Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Core/Storage.swift; sourceTree = SOURCE_ROOT; };
+		D322AB8254BBFA2B0DFDB904 /* Sources/Core/Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Core/Names.swift; sourceTree = SOURCE_ROOT; };
+		D9F0947701BFCBBAC2FEB390 /* Sources/Core/API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Core/API.swift; sourceTree = SOURCE_ROOT; };
+		EDF73311E5BAFE2E34CB7303 /* Sources/App/Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/App/Views.swift; sourceTree = SOURCE_ROOT; };
+		EE5482BDE8C2812D3F39F5B0 /* Resources/Circuits */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources/Circuits; sourceTree = SOURCE_ROOT; };
+		F231F6FE549E641636571AA6 /* RaceWeekWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; path = RaceWeekWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3A5E3395B182E85DFD15E5 /* Sources/Widget/RaceWeekWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Widget/RaceWeekWidgets.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		F97E10D1020E3BEF961AF77B = {
+			isa = PBXGroup;
+			children = (
+				5575B7734FF01DA07F682E80 /* Sources/App/CircuitDetail.swift */,
+				77BCB6A84020C042F5BAF6DA /* Sources/App/RaceWeekApp.swift */,
+				EDF73311E5BAFE2E34CB7303 /* Sources/App/Views.swift */,
+				D9F0947701BFCBBAC2FEB390 /* Sources/Core/API.swift */,
+				5B21B15BE2312B11886A39E9 /* Sources/Core/CircuitProfile.swift */,
+				70BEC17F0F384BD20938EDEE /* Sources/Core/Models.swift */,
+				D322AB8254BBFA2B0DFDB904 /* Sources/Core/Names.swift */,
+				C5342228B8D307612E0155DC /* Sources/Core/Storage.swift */,
+				86C7976065A82B277D3D5D6E /* Sources/UI/Style.swift */,
+				FA3A5E3395B182E85DFD15E5 /* Sources/Widget/RaceWeekWidgets.swift */,
+				3685E330EC5277A9DD5661C6 /* Resources/Assets.xcassets */,
+				EE5482BDE8C2812D3F39F5B0 /* Resources/Circuits */,
+				00A488BA7B02A655E18E6473 /* InfoPlist.strings */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BCD5BC4CDFDF0918087C782 /* RaceWeek.app */,
+				F231F6FE549E641636571AA6 /* RaceWeekWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1766B9A8FA8E63FD0CCAB9FE /* RaceWeek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C2D30C3AAE921C9D24FEA00 /* Build configuration list for PBXNativeTarget "RaceWeek" */;
+			buildPhases = (
+				AF7A99E518F3099449D39E97 /* Sources */,
+				6B70BEDAE8E39FD80B16C966 /* Resources */,
+				CFFF27C96089B93150F3553B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE58E2B17C19600779694943 /* PBXTargetDependency */,
+			);
+			name = RaceWeek;
+			productName = RaceWeek;
+			productReference = 8BCD5BC4CDFDF0918087C782 /* RaceWeek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2E26630DE3268E6B4337F06 /* RaceWeekWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3630855C1E15319CF379C824 /* Build configuration list for PBXNativeTarget "RaceWeekWidgets" */;
+			buildPhases = (
+				F6C596988CAD78DAF4398439 /* Sources */,
+				1139D75354EA63B0D09C7818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaceWeekWidgets;
+			productName = RaceWeekWidgets;
+			productReference = F231F6FE549E641636571AA6 /* RaceWeekWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2630;
+			};
+			buildConfigurationList = 862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "RaceWeek" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				Base,
+			);
+			mainGroup = F97E10D1020E3BEF961AF77B;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2E26630DE3268E6B4337F06 /* RaceWeekWidgets */,
+				1766B9A8FA8E63FD0CCAB9FE /* RaceWeek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1139D75354EA63B0D09C7818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74A3DEDC7F63AFB262D9967 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B70BEDAE8E39FD80B16C966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732231576B0B069E2941441F /* Resources/Assets.xcassets in Resources */,
+				B45CC7F9BBE54CA43DA92F67 /* Resources/Circuits in Resources */,
+				32F3E38010576CDB40EBFFD1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF7A99E518F3099449D39E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47641C07EA8EB0316D2941C2 /* Sources/App/CircuitDetail.swift in Sources */,
+				A0F7FBB2086FD46FFAC48EEC /* Sources/App/RaceWeekApp.swift in Sources */,
+				BB149B10C272F5A3A1912033 /* Sources/App/Views.swift in Sources */,
+				C7D73878FF86BA29D4B68118 /* Sources/Core/API.swift in Sources */,
+				B3CDA59F0B04029CE7694B59 /* Sources/Core/CircuitProfile.swift in Sources */,
+				1C4E09795B9A1EA7DECD6AF2 /* Sources/Core/Models.swift in Sources */,
+				2D862B2AC080CD07AE09E000 /* Sources/Core/Names.swift in Sources */,
+				80C04F9B4B556F65BA3A5B28 /* Sources/Core/Storage.swift in Sources */,
+				51CB0B5900C405EE08267F0B /* Sources/UI/Style.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C596988CAD78DAF4398439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22BB0C4C44323DA5DE10082 /* Sources/Core/API.swift in Sources */,
+				B157FACAD06B32F66937E038 /* Sources/Core/CircuitProfile.swift in Sources */,
+				85CF774DD361200161AC7789 /* Sources/Core/Models.swift in Sources */,
+				B8A553E6537CE7F94A18DEE4 /* Sources/Core/Names.swift in Sources */,
+				75CF58DC2E38A77680039C0A /* Sources/Core/Storage.swift in Sources */,
+				F0EEA057776476F88F6C3188 /* Sources/UI/Style.swift in Sources */,
+				512C15CEB3572BF228E621A9 /* Sources/Widget/RaceWeekWidgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE58E2B17C19600779694943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2E26630DE3268E6B4337F06 /* RaceWeekWidgets */;
+			targetProxy = D799BAE6088A90139B415FCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00A488BA7B02A655E18E6473 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BDC60664A57FA32A799A396 /* en */,
+				0D7F8A7D61B2E67CEAA9E191 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12F67072C5D27CD44960AF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Resources/Shared.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 48Y64XTWHK;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/WidgetInfo.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.tracktion.personal.widgets;
+				PRODUCT_NAME = RaceWeekWidgets;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		223AA1EDBC44C7DBA8EE65BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Resources/Shared.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 48Y64XTWHK;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/WidgetInfo.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.tracktion.personal.widgets;
+				PRODUCT_NAME = RaceWeekWidgets;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		446BDD49E9EB02BBC14C91DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Resources/Shared.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 48Y64XTWHK;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/AppInfo.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.tracktion.personal;
+				PRODUCT_NAME = RaceWeek;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		65177CA6C21702D9C787C089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Resources/Shared.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 48Y64XTWHK;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/AppInfo.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.tracktion.personal;
+				PRODUCT_NAME = RaceWeek;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C2D30C3AAE921C9D24FEA00 /* Build configuration list for PBXNativeTarget "RaceWeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BDD49E9EB02BBC14C91DC /* Debug */,
+				65177CA6C21702D9C787C089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3630855C1E15319CF379C824 /* Build configuration list for PBXNativeTarget "RaceWeekWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223AA1EDBC44C7DBA8EE65BB /* Debug */,
+				12F67072C5D27CD44960AF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "RaceWeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E1FD6268CC0F221A2BE178 /* Debug */,
+				E6DE6C99132752C914FEF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
